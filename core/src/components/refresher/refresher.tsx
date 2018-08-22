@@ -106,7 +106,7 @@ export class Refresher {
       el: this.el.closest('ion-content') as any,
       queue: this.queue,
       gestureName: 'refresher',
-      gesturePriority: 10,
+      gesturePriority: 41,
       direction: 'y',
       threshold: 10,
       passive: false,
